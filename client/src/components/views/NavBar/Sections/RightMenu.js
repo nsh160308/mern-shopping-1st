@@ -37,6 +37,10 @@ function RightMenu(props) {
   else {
     return (
       <Menu mode={props.mode}>
+        <Menu.Item key="history">
+          <a href="/user/history">주문 내역</a>
+        </Menu.Item>
+
         <Menu.Item key="upload">
           <a href="/product/upload">업로드</a>
         </Menu.Item>
